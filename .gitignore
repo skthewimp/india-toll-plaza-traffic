@@ -1,9 +1,13 @@
-# Downloaded and derived data
+# Canonical local data directories used by the scripts
 raw/
 processed/
 metadata/
 data/
+
+# Legacy/nested download directory
 downloads/
+
+# Data files copied elsewhere in the working tree
 *.csv
 *.json
 *.pdf

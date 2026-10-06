@@ -47,6 +47,10 @@ uv pip install \
 The download is roughly 80 MB. IHMCL can respond slowly, so downloads are
 resumable and existing files are not fetched again.
 
+Downloaded source files live in `raw/`, download manifests and checksums in
+`metadata/`, and derived tables in `processed/`. These directories sit directly
+under the repository root and are all excluded from Git.
+
 ## Repository policy
 
 Raw PDFs, ZIP archives, API responses, extracted tables, checksums, and download
