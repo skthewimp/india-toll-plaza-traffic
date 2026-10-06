@@ -22,3 +22,19 @@
   findings, source caveats, an MIT license and strict data exclusions.
 - Chose not to publish the original or derived data. The public repository holds
   only code and writing; users fetch source data from the publishers.
+
+<!-- codex-session:01a110f1-29f1-71f3-9eb4-9896bbc7ae38:start -->
+## 2026-10-06 16:50 IST | Codex session `01a110f1-29f`
+
+### User prompts
+> we have data from 2 data sources here right? what do they have, and cna they be joined?
+> to start wtih, can we extract ALL the IHMCL data?
+> dont' leave ambiguous duplicates in the data . will mess up downsteram analysis when done by a human. thisisa rule you should put in global agents.md andclaude.md
+
+### Work done
+- The repair code passed formatting and linting. A macOS multiprocessing limitation prevented the small one-off regeneration command from running when launched through stdin; the production script itself is unaffected....
+- Fixed. - June Loni rows now resolve to: - 8,753 → Baghpat / Delhi - 3,383 → Aurangabad / Nagpur - All three canonical IHMCL tables now have zero duplicate plaza-month keys. - [extract_ihmcl.py](/Users/Karthik/Document...
+- Touched files: `README.md`, `requirements.txt`, `analysis/explore_toll_plaza_data.Rmd`, `extract_ihmcl.py`
+- README.md | 10 +++++++++-
+
+<!-- codex-session:01a110f1-29f1-71f3-9eb4-9896bbc7ae38:end -->
