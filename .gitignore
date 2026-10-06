@@ -1,0 +1,19 @@
+# Downloaded and derived data
+raw/
+processed/
+metadata/
+data/
+downloads/
+*.csv
+*.json
+*.pdf
+*.zip
+*.parquet
+*.xlsx
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
